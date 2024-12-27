@@ -5,7 +5,7 @@ pipeline {
         stage('Execute shell script') {
             steps {
                 script{
-                    sh 'echo "Hello world from Jenkins server!"'
+                    sh 'echo "Hello world !!"'
                     sh 'chmod 777 a.sh'
                     sh './a.sh'
                 }
